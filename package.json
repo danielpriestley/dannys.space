@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasswatch": "sass --watch sass/main.scss:css/style.css",
+    "devserver": "live-server --browser='Google Chrome'",
+    "start": "npm run sasswatch | npm run devserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannypriestley/danny-priestley-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannypriestley/danny-priestley-portfolio/issues"
+  },
+  "homepage": "https://github.com/dannypriestley/danny-priestley-portfolio#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
+}
